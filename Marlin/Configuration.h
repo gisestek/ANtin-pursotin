@@ -21,7 +21,7 @@
  */
 #pragma once
 
-#define CONFIG_EXAMPLES_DIR "Prusa/MK3"
+//#define CONFIG_EXAMPLES_DIR "Prusa/MK3"
 
 /**
  * Configuration.h
@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Antti ja Jukka 20210728)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "Antti ja Jukka 20210728" // Who made the changes.
 #define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 // Disable this for FAN_PIN 8 and FAN1_PIN 6
@@ -81,7 +81,7 @@
 //#define GEARBOX_BEAR
 
 // Printer needs lower baudrate?
-//#define LOWBAUD
+#define LOWBAUD
 
 // Tall Bear (320mm)?
 //#define TALLBEAR
