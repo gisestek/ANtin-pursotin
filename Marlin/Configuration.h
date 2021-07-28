@@ -491,11 +491,11 @@
 #define TEMP_SENSOR_6 0
 #define TEMP_SENSOR_7 0
 #define TEMP_SENSOR_BED 1
-#if ENABLED(SUPERPINDA)
- #define TEMP_SENSOR_PROBE 0
-#else
- #define TEMP_SENSOR_PROBE 1
-#endif
+//#if ENABLED(SUPERPINDA)
+// #define TEMP_SENSOR_PROBE 0
+//#else
+// #define TEMP_SENSOR_PROBE 1
+//#endif
 #define TEMP_SENSOR_CHAMBER 0
 #define TEMP_SENSOR_COOLER 0
 #define TEMP_SENSOR_REDUNDANT 0
